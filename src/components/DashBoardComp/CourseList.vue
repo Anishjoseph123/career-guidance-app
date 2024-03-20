@@ -104,14 +104,14 @@ export default {
     },
     courseLists() {
       axios(
-        "https://o0l432ggja.execute-api.ap-south-1.amazonaws.com/dev/list_courses",
+        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
         {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
           },
           data: {
-            user_email_id: "naveen@gmail.com",
+            user_email_id: "xxxxxxxxxxxxxxxxxm",
             command: "listCourses",
           },
         }
